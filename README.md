@@ -2,7 +2,7 @@
 
 # SpeakEasy
 
-macOS menu bar dictation app. Press a hotkey from anywhere, speak, press it again to stop — your words are transcribed and pasted wherever your cursor is. No clicking, no switching windows.
+macOS menu bar dictation app. Press a hotkey from anywhere, speak, press it again to stop and your words are transcribed and pasted wherever your cursor is. No clicking, no switching windows.
 
 Everything runs on-device. No cloud, no subscription, no account.
 
@@ -10,7 +10,7 @@ Everything runs on-device. No cloud, no subscription, no account.
 
 ---
 
-## Download
+## ⬇️ Download
 
 Grab the latest release from the [Releases page](../../releases/latest).
 
@@ -18,7 +18,7 @@ Mount the DMG, drag SpeakEasy to Applications, and launch it.
 
 ---
 
-## How it works
+## 🎙️ How it works
 
 1. Press **Control + Shift + Space** (customizable) from any app
 2. Speak — a small floating indicator shows you're recording
@@ -29,7 +29,7 @@ SpeakEasy uses Apple's on-device speech recognition (macOS 26+) or a locally dow
 
 ---
 
-## Permissions
+## 🔐 Permissions
 
 SpeakEasy needs four permissions to function. An onboarding screen walks you through each one on first launch:
 
@@ -42,27 +42,27 @@ SpeakEasy needs four permissions to function. An onboarding screen walks you thr
 
 All four are required. The app won't proceed until they're all granted.
 
-If you previously granted permissions but the app doesn't detect them (can happen after reinstalling), go to **System Settings → Privacy & Security** and remove/re-add SpeakEasy for the affected permission.
+If you previously granted permissions but the app doesn't detect them (can happen after reinstalling), go to **System Settings > Privacy & Security** and remove/re-add SpeakEasy for the affected permission.
 
 ---
 
-## Settings
+## ⚙️ Settings
 
 Open **Settings** from the menu bar icon or press **⌘,**:
 
 - **Hotkey** — change the shortcut, or switch to push-to-talk mode (hold to record, release to stop)
 - **Speech Recognition** — Native (Apple Intelligence) or Whisper (local model download)
 - **Text Cleanup** — toggle on/off; choose Native or a local model
-- **Model Manager** — download and manage local Whisper / LLM models
+- **Model Manager** — download and manage local Whisper and LLM models
 
 ---
 
-## Why not the App Store?
+## 🏪 Why not the App Store?
 
-Global hotkey detection requires a macOS capability that's incompatible with the App Store sandbox. Direct distribution with notarization is the only option — the app is still cryptographically signed and reviewed by Apple.
+Global hotkey detection requires a macOS capability that's incompatible with the App Store sandbox. Direct distribution with notarization is the only option and the app is still cryptographically signed and verified by Apple.
 
 ---
 
-## Issues & Feedback
+## 🐛 Issues & Feedback
 
 [Open an issue](../../issues/new/choose) to report a bug or request a feature.
