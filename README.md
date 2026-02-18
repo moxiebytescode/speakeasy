@@ -2,7 +2,7 @@
 
 # SpeakEasy
 
-macOS menu bar dictation app. Press a hotkey from anywhere, speak, and your words appear in whatever app you're using — no clicking, no switching windows.
+macOS menu bar dictation app. Press a hotkey from anywhere, speak, press it again to stop — your words are transcribed and pasted wherever your cursor is. No clicking, no switching windows.
 
 Everything runs on-device. No cloud, no subscription, no account.
 
