@@ -66,3 +66,18 @@ Global hotkey detection requires a macOS capability that's incompatible with the
 ## 🐛 Issues & Feedback
 
 [Open an issue](../../issues/new/choose) to report a bug or request a feature.
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="dropdown.png" width="260" /><br/><sub>Menu bar</sub></td>
+    <td align="center"><img src="settings.png" width="380" /><br/><sub>Settings</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="whisper.png" width="380" /><br/><sub>Whisper model downloads</sub></td>
+    <td align="center"><img src="models.png" width="380" /><br/><sub>Text cleanup model downloads</sub></td>
+  </tr>
+</table>
