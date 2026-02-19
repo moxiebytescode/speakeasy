@@ -4,7 +4,7 @@
 
 macOS menu bar dictation app. Press a hotkey from anywhere, speak, press it again to stop and your words are transcribed and pasted wherever your cursor is. No clicking, no switching windows.
 
-Everything runs on-device. No cloud, no subscription, no account.
+Everything runs on-device. No telemetry. No cloud. No account. Your voice never leaves your Mac.
 
 > **Requires macOS 26 (Tahoe) or later**
 
@@ -60,6 +60,18 @@ Open **Settings** from the menu bar icon or press **⌘,**:
 ## 🏪 Why not the App Store?
 
 Global hotkey detection requires a macOS capability that's incompatible with the App Store sandbox. Direct distribution with notarization is the only option and the app is still cryptographically signed and verified by Apple.
+
+---
+
+## 🔒 Privacy
+
+SpeakEasy collects no data. Not some data. Not anonymized data. No data.
+
+- **Audio never leaves your Mac** — transcription runs entirely on-device via Apple Intelligence or a local Whisper model
+- **No network access** — the app makes zero outbound connections
+- **No account required** — nothing to sign up for, nothing to log in to
+
+This is by design. SpeakEasy exists to be the voice tool you can trust completely.
 
 ---
 
