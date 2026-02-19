@@ -1,4 +1,4 @@
-<img src="logo.png" alt="SpeakEasy" width="128" />
+<img src="images/logo.png" alt="SpeakEasy" width="128" />
 
 # SpeakEasy
 
@@ -85,11 +85,11 @@ This is by design. SpeakEasy exists to be the voice tool you can trust completel
 
 <table>
   <tr>
-    <td align="center"><img src="dropdown.png" width="260" /><br/><sub>Menu bar</sub></td>
-    <td align="center"><img src="settings.png" width="380" /><br/><sub>Settings</sub></td>
+    <td align="center"><img src="images/dropdown.png" width="260" /><br/><sub>Menu bar</sub></td>
+    <td align="center"><img src="images/settings.png" width="380" /><br/><sub>Settings</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="whisper.png" width="380" /><br/><sub>Whisper model downloads</sub></td>
-    <td align="center"><img src="models.png" width="380" /><br/><sub>Text cleanup model downloads</sub></td>
+    <td align="center"><img src="images/whisper.png" width="380" /><br/><sub>Whisper model downloads</sub></td>
+    <td align="center"><img src="images/models.png" width="380" /><br/><sub>Text cleanup model downloads</sub></td>
   </tr>
 </table>
