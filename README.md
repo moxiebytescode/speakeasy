@@ -50,10 +50,14 @@ If you previously granted permissions but the app doesn't detect them (can happe
 
 Open **Settings** from the menu bar icon or press **⌘,**:
 
-- **Hotkey** — change the shortcut, or switch to push-to-talk mode (hold to record, release to stop)
-- **Speech Recognition** — Native (Apple Intelligence) or Whisper (local model download)
+- **Hotkey** — change the shortcut, or switch to push-to-talk mode
+- **Speech Recognition** — Native (Apple) or Whisper (local model); language/locale picker
 - **Text Cleanup** — toggle on/off; choose Native or a local model
 - **Model Manager** — download and manage local Whisper and LLM models
+- **Clipboard Mode** — copy to clipboard instead of pasting at cursor
+- **Live Transcription** — show real-time transcript in the recording HUD
+- **Sound Feedback** — optional start/stop sounds
+- **Transcription History** — save and access recent transcriptions from the menu bar
 
 ---
 
@@ -83,10 +87,19 @@ This is by design. SpeakEasy exists to be the voice tool you can trust completel
 
 ## 📸 Screenshots
 
+<p align="center">
+  <img src="images/recording.gif" width="600" /><br/>
+  <sub>Dictate anywhere — text appears at your cursor</sub>
+</p>
+
 <table>
   <tr>
-    <td align="center"><img src="images/dropdown.png" width="260" /><br/><sub>Menu bar</sub></td>
-    <td align="center"><img src="images/settings.png" width="380" /><br/><sub>Settings</sub></td>
+    <td align="center"><img src="images/dropdown_menu.png" width="260" /><br/><sub>Menu bar</sub></td>
+    <td align="center"><img src="images/recent_transcriptions.png" width="380" /><br/><sub>Recent transcriptions</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/settings_1.png" width="300" /><br/><sub>Settings — hotkey, feedback, recognition</sub></td>
+    <td align="center"><img src="images/settings_2.png" width="300" /><br/><sub>Settings — cleanup &amp; permissions</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="images/whisper.png" width="380" /><br/><sub>Whisper model downloads</sub></td>
