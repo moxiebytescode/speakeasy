@@ -25,7 +25,7 @@ Mount the DMG, drag SpeakEasy to Applications, and launch it.
 3. Press the shortcut again to stop
 4. Your transcribed text is pasted into wherever your cursor was
 
-SpeakEasy uses Apple's on-device speech recognition (macOS 26+) or a locally downloaded Whisper model. An optional AI cleanup pass fixes punctuation, removes filler words, and converts spoken symbols ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. Both run entirely on your Mac.
+SpeakEasy uses Apple's on-device speech recognition (macOS 26+) or a locally downloaded Whisper model. An optional AI cleanup pass fixes punctuation, removes filler words, and converts spoken symbols ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can inspect cleaned text and give voice feedback to revise it before accepting. Everything runs entirely on your Mac.
 
 ---
 
@@ -52,7 +52,7 @@ Open **Settings** from the menu bar icon or press **⌘,**. Settings are organiz
 
 - **General** — hotkey, push-to-talk mode, clipboard mode, live transcription, sound feedback
 - **Recognition** — Native (Apple) or Whisper (local model); language/locale picker; Whisper model downloads
-- **Text Cleanup** — toggle on/off; choose Native or a local model; download local cleanup models
+- **Text Cleanup** — toggle on/off; choose Native or a local model; download local cleanup models; show cleaned text in HUD; review before pasting
 - **Prompts** — choose a cleanup preset (General, Technical, Creative); expand any rule to see before/after examples; toggle individual rules on or off; add custom instructions
 - **History** — browse past transcriptions with timestamps and raw vs. cleaned text; configure how many entries to keep (10, 25, 50, or 100)
 - **Permissions** — check and manage required macOS permissions at a glance
