@@ -71,7 +71,7 @@ Global hotkey detection requires a macOS capability that's incompatible with the
 SpeakEasy collects no data. Not some data. Not anonymized data. No data.
 
 - **Audio never leaves your Mac** — transcription runs entirely on-device via Apple Intelligence or a local Whisper model
-- **No network access** — the app makes zero outbound connections
+- **Network access is used only to download models** — audio and text never leave your Mac
 - **No account required** — nothing to sign up for, nothing to log in to
 
 This is by design. SpeakEasy exists to be the voice tool you can trust completely.
