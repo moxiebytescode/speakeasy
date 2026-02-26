@@ -96,10 +96,14 @@ This is by design. SpeakEasy exists to be the voice tool you can trust completel
   </tr>
   <tr>
     <td align="center"><img src="images/settings_general.png" width="300" /><br/><sub>Settings — General</sub></td>
-    <td align="center"><img src="images/settings_ai.png" width="300" /><br/><sub>Settings — AI</sub></td>
+    <td align="center"><img src="images/settings_ai_text_cleanup.png" width="300" /><br/><sub>Settings — AI (Text Cleanup)</sub></td>
   </tr>
   <tr>
+    <td align="center"><img src="images/settings_ai_revision.png" width="300" /><br/><sub>Settings — AI (Revision)</sub></td>
     <td align="center"><img src="images/settings_permissions.png" width="300" /><br/><sub>Settings — Permissions</sub></td>
+  </tr>
+  <tr>
     <td align="center"><img src="images/settings_about.png" width="300" /><br/><sub>Settings — About</sub></td>
+    <td></td>
   </tr>
 </table>
