@@ -50,8 +50,8 @@ If you previously granted permissions but the app doesn't detect them (can happe
 
 Open **Settings** from the menu bar icon or press **⌘,**. Settings are organized into tabs:
 
-- **General** — hotkey, push-to-talk mode, clipboard mode, live transcription, sound feedback, language/locale picker
-- **AI** — cleanup presets (General, Technical, Creative) with toggleable rules; custom instructions for cleanup and revision; read-only system prompts; show cleaned text in HUD; review before pasting
+- **General** — hotkey, push-to-talk mode, language picker, clipboard mode, text cleanup toggle, review before pasting, live transcription, show cleaned text in HUD, sound feedback, transcription history toggle
+- **AI** — cleanup presets (Standard, Formal, Casual, Technical, Minimal, Custom) with toggleable rules; custom instructions for cleanup and revision; read-only system prompts
 - **History** — browse past transcriptions with timestamps and raw vs. cleaned text; configure how many entries to keep (10, 25, 50, or 100)
 - **Permissions** — check and manage required macOS permissions at a glance
 - **About** — version info and links
