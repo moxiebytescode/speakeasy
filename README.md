@@ -2,108 +2,110 @@
 
 # SpeakEasy
 
-macOS menu bar dictation app. Press a hotkey from anywhere, speak, press it again to stop and your words are transcribed and pasted wherever your cursor is. No clicking, no switching windows.
+Speak your piece. We'll keep it between us.
 
-Everything runs on-device. No telemetry. No cloud. No account. Your voice never leaves your Mac.
+A macOS menu bar dictation app. Press a hotkey from anywhere, say what you need to say, press it again — your words are transcribed and pasted right where your cursor sits. No clicking, no switching windows.
+
+Everything runs on your machine. No wires out, no ears listening in. Your voice never leaves your Mac.
 
 > **Requires macOS 26 (Tahoe) or later**
 
 ---
 
-## ⬇️ Download
+## ⬇️ Step Inside
 
 Grab the latest release from the [Releases page](../../releases/latest).
 
-Mount the DMG, drag SpeakEasy to Applications, and launch it.
+Mount the DMG, drag SpeakEasy to Applications, and you're in.
 
 ---
 
-## 🎙️ How it works
+## 🎙️ How It Works
 
-1. Press **Control + Shift + Space** (customizable) from any app
-2. Speak — a small floating indicator shows you're recording
+1. Press **Control + Shift + Space** (customizable) from any app — one knock gets you in
+2. Speak — a small floating indicator shows you're on the air
 3. Press the shortcut again to stop
 4. Your transcribed text is pasted into wherever your cursor was
 
-SpeakEasy uses Apple Intelligence for on-device speech recognition and text cleanup (macOS 26+). An optional AI cleanup pass fixes punctuation, removes filler words, and converts spoken symbols ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can inspect cleaned text and give voice feedback to revise it before accepting. Everything runs entirely on your Mac.
+The house cleans up after you — an on-device AI pass straightens out your grammar, sweeps away the "um"s and "uh"s, and translates the lingo ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can look it over and give voice notes to revise before it goes out. Everything runs entirely on your Mac, powered by Apple Intelligence.
 
 ---
 
-## 🔐 Permissions
+## 🔐 The Door Policy
 
-SpeakEasy needs four permissions to function. An onboarding screen walks you through each one on first launch:
+SpeakEasy needs four permissions to let you in. An onboarding screen walks you through each one on first launch:
 
 | Permission | Why |
 |---|---|
-| Microphone | Captures your voice |
-| Speech Recognition | Converts speech to text on-device |
-| Input Monitoring | Detects the hotkey while SpeakEasy is in the background |
+| Microphone | Hears your voice |
+| Speech Recognition | Turns speech to text, on-device |
+| Input Monitoring | Catches the hotkey while SpeakEasy's in the background |
 | Accessibility | Pastes text into any app |
 
-All four are required. The app won't proceed until they're all granted.
+All four are required. No exceptions — the joint doesn't open until they're all granted.
 
 If you previously granted permissions but the app doesn't detect them (can happen after reinstalling), go to **System Settings > Privacy & Security** and remove/re-add SpeakEasy for the affected permission.
 
 ---
 
-## ⚙️ Settings
+## ⚙️ House Rules
 
-Open **Settings** from the menu bar icon or press **⌘,**. Settings are organized into tabs:
+Open **Settings** from the menu bar icon or press **⌘,**. The back office is organized into tabs:
 
 - **General** — hotkey, push-to-talk mode, language picker, clipboard mode, text cleanup toggle, review before pasting, live transcription, show cleaned text in HUD, sound feedback, transcription history toggle
-- **AI** — cleanup presets (Standard, Formal, Casual, Technical, Minimal, Custom) with toggleable rules; custom instructions for cleanup and revision; read-only system prompts
-- **History** — browse past transcriptions with timestamps and raw vs. cleaned text; configure how many entries to keep (10, 25, 50, or 100)
-- **Permissions** — check and manage required macOS permissions at a glance
+- **AI** — six cleanup presets (Standard, Formal, Casual, Technical, Minimal, Custom) with toggleable rules; write your own custom instructions for cleanup and revision; read-only system prompts
+- **History** — a ledger of past transcriptions with timestamps and raw vs. cleaned text; configure how many entries to keep (10, 25, 50, or 100)
+- **Permissions** — check and manage your door policy at a glance
 - **About** — version info and links
 
 ---
 
-## 🏪 Why not the App Store?
+## 🏪 Why Not the App Store?
 
-Global hotkey detection requires a macOS capability that's incompatible with the App Store sandbox. Direct distribution with notarization is the only option and the app is still cryptographically signed and verified by Apple.
+The global hotkey requires a macOS capability that doesn't play nice with the App Store sandbox. Direct distribution is the only way in — but the app is still cryptographically signed, notarized, and verified by Apple. It's legit, even if it's not on the main drag.
 
 ---
 
-## 🔒 Privacy
+## 🔒 What's Said Here Stays Here
 
 SpeakEasy collects no data. Not some data. Not anonymized data. No data.
 
-- **Audio never leaves your Mac** — transcription and text cleanup run entirely on-device via Apple Intelligence
-- **No network access required** — everything runs locally, no data is transmitted
+- **Your words don't leave the building** — transcription and text cleanup run entirely on-device via Apple Intelligence
+- **No wires out** — everything runs locally, nothing is transmitted
 - **No account required** — nothing to sign up for, nothing to log in to
 
-This is by design. SpeakEasy exists to be the voice tool you can trust completely.
+This is by design. We built the kind of place you can trust completely.
 
 ---
 
-## 🐛 Issues & Feedback
+## 🐛 Got a Bone to Pick?
 
 [Open an issue](../../issues/new/choose) to report a bug or request a feature.
 
 ---
 
-## 📸 Screenshots
+## 📸 A Look Around the Place
 
 <p align="center">
   <img src="images/recording.gif" width="600" /><br/>
-  <sub>Dictate anywhere — text appears at your cursor</sub>
+  <sub>Dictate anywhere — your words appear at the cursor</sub>
 </p>
 
 <table>
   <tr>
-    <td align="center"><img src="images/dropdown_menu.png" width="260" /><br/><sub>Menu bar</sub></td>
-    <td align="center"><img src="images/recent_transcriptions.png" width="380" /><br/><sub>Recent transcriptions</sub></td>
+    <td align="center"><img src="images/dropdown_menu.png" width="260" /><br/><sub>The menu bar</sub></td>
+    <td align="center"><img src="images/recent_transcriptions.png" width="380" /><br/><sub>The ledger</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/settings_general.png" width="300" /><br/><sub>Settings — General</sub></td>
-    <td align="center"><img src="images/settings_ai_text_cleanup.png" width="300" /><br/><sub>Settings — AI (Text Cleanup)</sub></td>
+    <td align="center"><img src="images/settings_general.png" width="300" /><br/><sub>House Rules — General</sub></td>
+    <td align="center"><img src="images/settings_ai_text_cleanup.png" width="300" /><br/><sub>House Rules — AI (Text Cleanup)</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/settings_ai_revision.png" width="300" /><br/><sub>Settings — AI (Revision)</sub></td>
-    <td align="center"><img src="images/settings_permissions.png" width="300" /><br/><sub>Settings — Permissions</sub></td>
+    <td align="center"><img src="images/settings_ai_revision.png" width="300" /><br/><sub>House Rules — AI (Revision)</sub></td>
+    <td align="center"><img src="images/settings_permissions.png" width="300" /><br/><sub>The Door Policy</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/settings_about.png" width="300" /><br/><sub>Settings — About</sub></td>
+    <td align="center"><img src="images/settings_about.png" width="300" /><br/><sub>About the Joint</sub></td>
     <td></td>
   </tr>
 </table>
