@@ -71,7 +71,7 @@ The global hotkey requires a macOS capability that doesn't play nice with the Ap
 SpeakEasy collects no data. Not some data. Not anonymized data. No data.
 
 - **Your words don't leave the building** — transcription and text cleanup run entirely on-device via Apple Intelligence
-- **No wires out** — everything runs locally, nothing is transmitted
+- **No wires out** — transcription and text cleanup run locally, nothing is transmitted. An optional update check (disabled by default) connects to GitHub to see if a new version is available — that's the only network request the app ever makes
 - **No account required** — nothing to sign up for, nothing to log in to
 
 This is by design. We built the kind of place you can trust completely.
