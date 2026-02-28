@@ -52,7 +52,7 @@ If you previously granted permissions but the app doesn't detect them (can happe
 
 Open **Settings** from the menu bar icon or press **⌘,**. The back office is organized into tabs:
 
-- **General** — hotkey, push-to-talk mode, language picker, clipboard mode, text cleanup toggle, review before pasting, live transcription, show cleaned text in HUD, sound feedback, transcription history toggle
+- **General** — hotkey, push-to-talk mode, language picker, clipboard mode, text cleanup toggle, review before pasting, live transcription, show cleaned text in HUD, sound feedback, transcription history toggle, update checking
 - **AI** — six cleanup presets (Standard, Formal, Casual, Technical, Minimal, Custom) with toggleable rules; write your own custom instructions for cleanup and revision; read-only system prompts
 - **History** — a ledger of past transcriptions with timestamps and raw vs. cleaned text; configure how many entries to keep (10, 25, 50, or 100)
 - **Permissions** — check and manage your door policy at a glance
