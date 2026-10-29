@@ -27,7 +27,7 @@ Mount the DMG, drag SpeakEasy to Applications, and you're in.
 3. Press the shortcut again to stop
 4. Your transcribed text is pasted into wherever your cursor was
 
-The house cleans up after you — an on-device AI pass straightens out your grammar, sweeps away the "um"s and "uh"s, and translates the lingo ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can look it over and give voice notes to revise before it goes out. Everything runs entirely on your Mac, powered by Apple Intelligence.
+The house cleans up after you — an on-device AI pass straightens out your grammar, sweeps away the "um"s and "uh"s, and translates the lingo ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can edit the text by typing, then press Return, the shortcut, or choose Accept Review from the menu. Escape or the close button discards it. Holding the acceptance shortcut never starts another recording. Everything runs entirely on your Mac, powered by Apple Intelligence.
 
 ---
 
@@ -52,9 +52,8 @@ If you previously granted permissions but the app doesn't detect them (can happe
 
 Open **Settings** from the menu bar icon or press **⌘,**. The back office is organized into tabs:
 
-- **General** — hotkey, push-to-talk mode, language picker, clipboard mode, text cleanup toggle, review before pasting, live transcription, show cleaned text in HUD, sound feedback, transcription history toggle, update checking
-- **AI** — six cleanup presets (Standard, Formal, Casual, Technical, Minimal, Custom) with toggleable rules; write your own custom instructions for cleanup and revision; read-only system prompts
-- **History** — a ledger of past transcriptions with timestamps and raw vs. cleaned text; configure how many entries to keep (10, 25, 50, or 100)
+- **General** — shortcut, push-to-talk mode, language, clipboard mode, cleanup on/off and one optional instruction field, review before pasting, live raw transcription, sounds, history enablement and update checking
+- **History** — recent delivered text with timestamps, copy and Clear All; keeps the newest 25 after each new entry
 - **Permissions** — check and manage your door policy at a glance
 - **About** — version info and links
 
@@ -84,6 +83,12 @@ This is by design. We built the kind of place you can trust completely.
 
 ---
 
+## Updating from earlier versions
+
+Live transcription now stays raw while you speak; cleanup applies to the final text. The previous effective cleanup preferences and enabled instructions migrate once into the single instruction field, which you can edit or leave empty. Voice revisions and the AI tab have been removed. Review accepts immediately on a shortcut press after a brief debounce, in either activation mode.
+
+Existing history keeps its delivered text and timestamps. The next new entry trims history to 25. Turning history off stops collection without erasing saved entries; Clear All removes them. Migration preserves your expressed instructions, but model output can differ.
+
 ## 📸 A Look Around the Place
 
 <p align="center">
@@ -97,12 +102,8 @@ This is by design. We built the kind of place you can trust completely.
     <td align="center"><img src="images/recent_transcriptions.png" width="380" /><br/><sub>The ledger</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/settings_general.png" width="300" /><br/><sub>House Rules — General</sub></td>
-    <td align="center"><img src="images/settings_ai_text_cleanup.png" width="300" /><br/><sub>House Rules — AI (Text Cleanup)</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="images/settings_ai_revision.png" width="300" /><br/><sub>House Rules — AI (Revision)</sub></td>
     <td align="center"><img src="images/settings_permissions.png" width="300" /><br/><sub>The Door Policy</sub></td>
+    <td></td>
   </tr>
   <tr>
     <td align="center"><img src="images/settings_about.png" width="300" /><br/><sub>About the Joint</sub></td>
