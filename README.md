@@ -27,6 +27,8 @@ Mount the DMG, drag SpeakEasy to Applications, and you're in.
 3. Let go to stop — or, hands-free, tap once
 4. Your transcribed text is pasted into wherever your cursor was
 
+Changed your mind? Press **Escape** from any app to cancel.
+
 The house cleans up after you — an on-device AI pass straightens out your grammar, sweeps away the "um"s and "uh"s, and translates the lingo ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can edit the text by typing, then press Return, the shortcut, or choose Accept Review from the menu. Escape or the close button discards it. Holding the acceptance shortcut never starts another recording. Everything runs entirely on your Mac, powered by Apple Intelligence.
 
 ---
@@ -39,7 +41,7 @@ SpeakEasy needs four permissions to let you in. An onboarding screen walks you t
 |---|---|
 | Microphone | Hears your voice |
 | Speech Recognition | Turns speech to text, on-device |
-| Input Monitoring | Catches the hotkey while SpeakEasy's in the background |
+| Input Monitoring | Catches the hotkey and Escape while SpeakEasy's in the background |
 | Accessibility | Pastes text into any app |
 
 All four are required. No exceptions — the joint doesn't open until they're all granted.
@@ -85,28 +87,5 @@ This is by design. We built the kind of place you can trust completely.
 
 ## Updating from earlier versions
 
-Live transcription now stays raw while you speak; cleanup applies to the final text. The previous effective cleanup preferences and enabled instructions migrate once into the single instruction field, which you can edit or leave empty. Voice revisions and the AI tab have been removed. Review accepts immediately on a shortcut press after a brief debounce. The Push to Talk switch is gone: hold the shortcut to talk, or double-tap it for hands-free and tap once to stop.
+1.6.0 drops the Push to Talk setting: hold the shortcut to talk, or double-tap it for hands-free and tap once to stop. Escape cancels from any app. Your cleanup preferences move once into a single instruction field you can edit or clear, and voice revisions and the cleanup presets are gone. History keeps your existing entries and trims to the newest 25 on the next one.
 
-Existing history keeps its delivered text and timestamps. The next new entry trims history to 25. Turning history off stops collection without erasing saved entries; Clear All removes them. Migration preserves your expressed instructions, but model output can differ.
-
-## 📸 A Look Around the Place
-
-<p align="center">
-  <img src="images/recording.gif" width="600" /><br/>
-  <sub>Dictate anywhere — your words appear at the cursor</sub>
-</p>
-
-<table>
-  <tr>
-    <td align="center"><img src="images/dropdown_menu.png" width="260" /><br/><sub>The menu bar</sub></td>
-    <td align="center"><img src="images/recent_transcriptions.png" width="380" /><br/><sub>The ledger</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="images/settings_permissions.png" width="300" /><br/><sub>The Door Policy</sub></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="images/settings_about.png" width="300" /><br/><sub>About the Joint</sub></td>
-    <td></td>
-  </tr>
-</table>
