@@ -4,7 +4,7 @@
 
 Speak your piece. We'll keep it between us.
 
-A macOS menu bar dictation app. Press a hotkey from anywhere, say what you need to say, press it again — your words are transcribed and pasted right where your cursor sits. No clicking, no switching windows.
+A macOS menu bar dictation app. Hold a hotkey from anywhere, say what you need to say, let go — your words are transcribed and pasted right where your cursor sits. No clicking, no switching windows.
 
 Everything runs on your machine. No wires out, no ears listening in. Your voice never leaves your Mac.
 
@@ -22,9 +22,9 @@ Mount the DMG, drag SpeakEasy to Applications, and you're in.
 
 ## 🎙️ How It Works
 
-1. Press **Control + Shift + Space** (customizable) from any app — one knock gets you in
+1. Hold **Control + Shift + Space** (customizable) from any app — or double-tap it to go hands-free
 2. Speak — a small floating indicator shows you're on the air
-3. Press the shortcut again to stop
+3. Let go to stop — or, hands-free, tap once
 4. Your transcribed text is pasted into wherever your cursor was
 
 The house cleans up after you — an on-device AI pass straightens out your grammar, sweeps away the "um"s and "uh"s, and translates the lingo ("slash settings" → `/settings`, "dot com" → `.com`) before pasting. With "Review before pasting" enabled, you can edit the text by typing, then press Return, the shortcut, or choose Accept Review from the menu. Escape or the close button discards it. Holding the acceptance shortcut never starts another recording. Everything runs entirely on your Mac, powered by Apple Intelligence.
@@ -52,10 +52,10 @@ If you previously granted permissions but the app doesn't detect them (can happe
 
 Open **Settings** from the menu bar icon or press **⌘,**. The back office is organized into tabs:
 
-- **General** — shortcut, push-to-talk mode, language, clipboard mode, cleanup on/off and one optional instruction field, review before pasting, live raw transcription, sounds, history enablement and update checking
-- **History** — recent delivered text with timestamps, copy and Clear All; keeps the newest 25 after each new entry
+- **General** — a guide to hold, double-tap and Escape, then shortcut, language, clipboard mode, cleanup on/off and one optional instruction field, review before pasting, live text and sounds
+- **History** — saving on or off, recent delivered text with timestamps, copy and Clear All; keeps the newest 25 after each new entry
 - **Permissions** — check and manage your door policy at a glance
-- **About** — version info and links
+- **About** — version info, update checks and links
 
 ---
 
@@ -85,7 +85,7 @@ This is by design. We built the kind of place you can trust completely.
 
 ## Updating from earlier versions
 
-Live transcription now stays raw while you speak; cleanup applies to the final text. The previous effective cleanup preferences and enabled instructions migrate once into the single instruction field, which you can edit or leave empty. Voice revisions and the AI tab have been removed. Review accepts immediately on a shortcut press after a brief debounce, in either activation mode.
+Live transcription now stays raw while you speak; cleanup applies to the final text. The previous effective cleanup preferences and enabled instructions migrate once into the single instruction field, which you can edit or leave empty. Voice revisions and the AI tab have been removed. Review accepts immediately on a shortcut press after a brief debounce. The Push to Talk switch is gone: hold the shortcut to talk, or double-tap it for hands-free and tap once to stop.
 
 Existing history keeps its delivered text and timestamps. The next new entry trims history to 25. Turning history off stops collection without erasing saved entries; Clear All removes them. Migration preserves your expressed instructions, but model output can differ.
 
