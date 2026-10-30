@@ -89,3 +89,25 @@ This is by design. We built the kind of place you can trust completely.
 
 1.6.0 drops the Push to Talk setting: hold the shortcut to talk, or double-tap it for hands-free and tap once to stop. Escape cancels from any app. Your cleanup preferences move once into a single instruction field you can edit or clear, and voice revisions and the cleanup presets are gone. History keeps your existing entries and trims to the newest 25 on the next one.
 
+
+## 📸 A Look Around the Place
+
+<p align="center">
+  <img src="images/recording.gif" width="600" /><br/>
+  <sub>Talk, and your words land at the cursor</sub>
+</p>
+
+<table>
+  <tr>
+    <td align="center"><img src="images/dropdown_menu.png" width="260" /><br/><sub>The menu bar</sub></td>
+    <td align="center"><img src="images/settings_general.png" width="400" /><br/><sub>House Rules</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/settings_history.png" width="400" /><br/><sub>The Ledger</sub></td>
+    <td align="center"><img src="images/settings_permissions.png" width="400" /><br/><sub>The Door Policy</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/settings_about.png" width="400" /><br/><sub>About the Joint</sub></td>
+    <td></td>
+  </tr>
+</table>
