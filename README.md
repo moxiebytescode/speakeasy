@@ -92,10 +92,12 @@ This is by design. We built the kind of place you can trust completely.
 
 ## 📸 A Look Around the Place
 
-<p align="center">
-  <img src="images/recording.gif" width="600" /><br/>
-  <sub>Talk, and your words land at the cursor</sub>
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="images/recording_pill.gif" width="400" /><br/><sub>Talk, and your words land at the cursor</sub></td>
+    <td align="center"><img src="images/recording.gif" width="400" /><br/><sub>Or watch them come in, with Show live text on</sub></td>
+  </tr>
+</table>
 
 <table>
   <tr>
